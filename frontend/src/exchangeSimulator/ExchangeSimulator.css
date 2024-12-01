@@ -1,0 +1,222 @@
+/* Заголовок */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Основной контент */
+.content {
+    margin-top: 70px; /* Отступ от заголовка */
+    padding: 20px;
+}
+
+/* Таблица акций */
+.stockTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.stockTable th,
+.stockTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.stockTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.stockTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Кнопки */
+.toggle-btn,
+.details-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.toggle-btn:hover,
+.details-btn:hover {
+    background-color: #45a049;
+}
+
+/* Модальное окно */
+.stock-details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+
+.stock-details .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.stock-details .modalContent h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.stock-details .modalContent table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stock-details .modalContent th,
+.stock-details .modalContent td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.stock-details .modalContent th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.stock-details button {
+    margin-top: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.stock-details button:hover {
+    background-color: #c0392b;
+}
+
+/* Центрирование текста */
+.center-container {
+    text-align: center;
+}
+
+/* Ссылки */
+.menu-link {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #45a049;
+}
+
+/* Медиазапросы */
+@media (max-width: 768px) {
+    .header {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .stockTable th,
+    .stockTable td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .stock-details .modalContent {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .stock-details button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .stockTable th,
+    .stockTable td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .stock-details .modalContent {
+        width: 95%;
+    }
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background: #d32f2f;
+}
+

@@ -1,0 +1,172 @@
+/* Стили для контейнера с заголовком */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.content {
+    margin-top: 70px; /* Отступ от заголовка */
+    padding: 20px;
+}
+
+/* Таблица брокеров */
+.brokerTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.brokerTable th,
+.brokerTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.brokerTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.brokerTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Кнопка удаления */
+.brokerTable button {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.brokerTable button:hover {
+    background-color: #45a049;
+}
+
+.addBroker {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.addBroker:hover {
+    background-color: #45a049;
+}
+
+/* Модальное окно */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Кнопки в модальном окне */
+.modalContent button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    .header {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .brokerTable th,
+    .brokerTable td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .modalContent {
+        width: 90%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .modalContent button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .brokerTable th,
+    .brokerTable td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .modalContent {
+        width: 95%;
+    }
+}
+
+/* Контейнер для центрирования */
+.center-container {
+    display: flex; /* Flexbox для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+/* Стили для ссылки */
+.menu-link {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #45a049;
+}

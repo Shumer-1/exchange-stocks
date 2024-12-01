@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Broker One",
+    "balance": 100000
+  },
+  {
+    "id": 2,
+    "name": "Broker Two",
+    "balance": 150000
+  },
+  {
+    "id": "1732885627317",
+    "name": "Влад",
+    "balance": 99999999999
+  }
+]

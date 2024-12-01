@@ -1,0 +1,346 @@
+[
+  {
+    "ticker": "AAPL",
+    "companyName": "Apple, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 181.89
+      },
+      {
+        "date": "11/4/2023",
+        "open": 180.58
+      },
+      {
+        "date": "11/3/2023",
+        "open": 179.39
+      },
+      {
+        "date": "11/5/2022",
+        "open": 161.89
+      },
+      {
+        "date": "11/4/2022",
+        "open": 160.58
+      },
+      {
+        "date": "11/3/2022",
+        "open": 159.39
+      },
+      {
+        "date": "11/5/2021",
+        "open": 151.89
+      },
+      {
+        "date": "11/4/2021",
+        "open": 151.58
+      },
+      {
+        "date": "11/3/2021",
+        "open": 150.39
+      }
+    ],
+    "participatesInTrading": false
+  },
+  {
+    "ticker": "SBUX",
+    "companyName": "Starbucks, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 132.47
+      },
+      {
+        "date": "11/4/2023",
+        "open": 131.92
+      },
+      {
+        "date": "11/3/2023",
+        "open": 130.57
+      },
+      {
+        "date": "11/5/2022",
+        "open": 122.47
+      },
+      {
+        "date": "11/4/2022",
+        "open": 121.92
+      },
+      {
+        "date": "11/3/2022",
+        "open": 120.57
+      },
+      {
+        "date": "11/5/2021",
+        "open": 112.47
+      },
+      {
+        "date": "11/4/2021",
+        "open": 111.92
+      },
+      {
+        "date": "11/3/2021",
+        "open": 110.57
+      }
+    ],
+    "participatesInTrading": false
+  },
+  {
+    "ticker": "MSFT",
+    "companyName": "Microsoft, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 366.06
+      },
+      {
+        "date": "11/4/2023",
+        "open": 364.75
+      },
+      {
+        "date": "11/3/2023",
+        "open": 362.64
+      },
+      {
+        "date": "11/5/2022",
+        "open": 346.06
+      },
+      {
+        "date": "11/4/2022",
+        "open": 344.75
+      },
+      {
+        "date": "11/3/2022",
+        "open": 342.64
+      },
+      {
+        "date": "11/5/2021",
+        "open": 336.06
+      },
+      {
+        "date": "11/4/2021",
+        "open": 334.75
+      },
+      {
+        "date": "11/3/2021",
+        "open": 332.64
+      }
+    ],
+    "participatesInTrading": false
+  },
+  {
+    "ticker": "CSCO",
+    "companyName": "Cisco Systems, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 66.88
+      },
+      {
+        "date": "11/4/2023",
+        "open": 66.63
+      },
+      {
+        "date": "11/3/2023",
+        "open": 66.09
+      },
+      {
+        "date": "11/5/2022",
+        "open": 60.88
+      },
+      {
+        "date": "11/4/2022",
+        "open": 60.63
+      },
+      {
+        "date": "11/3/2022",
+        "open": 60.09
+      },
+      {
+        "date": "11/5/2021",
+        "open": 56.88
+      },
+      {
+        "date": "11/4/2021",
+        "open": 56.63
+      },
+      {
+        "date": "11/3/2021",
+        "open": 56.09
+      }
+    ],
+    "participatesInTrading": true
+  },
+  {
+    "ticker": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 166.83
+      },
+      {
+        "date": "11/4/2023",
+        "open": 165.88
+      },
+      {
+        "date": "11/3/2023",
+        "open": 164.12
+      },
+      {
+        "date": "11/5/2022",
+        "open": 160.83
+      },
+      {
+        "date": "11/4/2022",
+        "open": 159.88
+      },
+      {
+        "date": "11/3/2022",
+        "open": 158.12
+      },
+      {
+        "date": "11/5/2021",
+        "open": 156.83
+      },
+      {
+        "date": "11/4/2021",
+        "open": 155.88
+      },
+      {
+        "date": "11/3/2021",
+        "open": 154.12
+      }
+    ],
+    "participatesInTrading": false
+  },
+  {
+    "ticker": "AMZN",
+    "companyName": "Amazon.com, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 3727.91
+      },
+      {
+        "date": "11/4/2023",
+        "open": 3705.03
+      },
+      {
+        "date": "11/3/2023",
+        "open": 3681.31
+      },
+      {
+        "date": "11/5/2022",
+        "open": 3627.91
+      },
+      {
+        "date": "11/4/2022",
+        "open": 3605.03
+      },
+      {
+        "date": "11/3/2022",
+        "open": 3581.31
+      },
+      {
+        "date": "11/5/2021",
+        "open": 3527.91
+      },
+      {
+        "date": "11/4/2021",
+        "open": 3505.03
+      },
+      {
+        "date": "11/3/2021",
+        "open": 3481.31
+      }
+    ],
+    "participatesInTrading": true
+  },
+  {
+    "ticker": "TSLA",
+    "companyName": "Tesla, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 1422.09
+      },
+      {
+        "date": "11/4/2023",
+        "open": 1413.86
+      },
+      {
+        "date": "11/3/2023",
+        "open": 1387.87
+      },
+      {
+        "date": "11/5/2022",
+        "open": 1322.09
+      },
+      {
+        "date": "11/4/2022",
+        "open": 1313.86
+      },
+      {
+        "date": "11/3/2022",
+        "open": 1287.87
+      },
+      {
+        "date": "11/5/2021",
+        "open": 1222.09
+      },
+      {
+        "date": "11/4/2021",
+        "open": 1213.86
+      },
+      {
+        "date": "11/3/2021",
+        "open": 1187.87
+      }
+    ],
+    "participatesInTrading": false
+  },
+  {
+    "ticker": "AMD",
+    "companyName": "Advanced Micro Devices, Inc.",
+    "historicalData": [
+      {
+        "date": "11/5/2023",
+        "open": 160.17
+      },
+      {
+        "date": "11/4/2023",
+        "open": 159.53
+      },
+      {
+        "date": "11/3/2023",
+        "open": 158.34
+      },
+      {
+        "date": "11/5/2022",
+        "open": 150.17
+      },
+      {
+        "date": "11/4/2022",
+        "open": 149.53
+      },
+      {
+        "date": "11/3/2022",
+        "open": 148.34
+      },
+      {
+        "date": "11/5/2021",
+        "open": 140.17
+      },
+      {
+        "date": "11/4/2021",
+        "open": 139.53
+      },
+      {
+        "date": "11/3/2021",
+        "open": 138.34
+      }
+    ],
+    "participatesInTrading": false
+  }
+]
